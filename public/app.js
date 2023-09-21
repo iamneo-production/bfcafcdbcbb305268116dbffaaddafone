@@ -1,4 +1,4 @@
-function calculate()
+function calculation()
 {
     var price = parseInt(document.getElementById("loanAmount").value);
     var duprate = parseInt(document.getElementById("interestRate").value);
