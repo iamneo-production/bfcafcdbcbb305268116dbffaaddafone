@@ -1,4 +1,4 @@
-function calculation()
+function EMIcalculation()
 {
     var price = parseInt(document.getElementById("loanAmount").value);
     var duprate = parseInt(document.getElementById("interestRate").value);
