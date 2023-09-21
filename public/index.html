@@ -5,8 +5,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EMI</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
 </head>
 <body>
+  <div id="headding">
+    <h1>EMI Calculator</h1><br>
+  <div id="lef">
+    <label>
+        Loan Amount:
+    </label><br>
+  </div>
+    <input type="text" id="loanAmount"></input> <br>
   
+  <div id="lef">
+    <label> Interest Rate:</label> <br>
+  </div>
+    <input type="text" id="interestRate"> <br>
+  <div id="lef">
+    <label >Loan Term</label> <br>
+  </div>
+    <input type="text" id="loanTerm"><br>
+    <button type="button" id="submit" onclick=calculate()>Calculate EMI</button>
+  
+    <p id="ans"></p>
+  </div>
 </body>
 </html>

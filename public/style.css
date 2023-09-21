@@ -1,0 +1,33 @@
+
+#headding
+{
+  background-color: white ;
+  width: 300px;
+  height: 300px;
+  align-content: center;
+}
+#submit
+{
+background-color: greenyellow;
+text-align: center;
+}
+form
+{
+background-color: white;
+height: 300px;
+width: 300px;
+max-width: 500px;
+margin: auto;
+text-align: center;
+}
+body
+{
+background-color: gray;
+align-items: center;
+
+}
+div
+{
+max-width: 500px;
+
+}
