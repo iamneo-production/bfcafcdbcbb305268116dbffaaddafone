@@ -31,3 +31,7 @@ div
 max-width: 500px;
 
 }
+h1
+{
+  display: flex;
+}
