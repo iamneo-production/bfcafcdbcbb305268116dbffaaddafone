@@ -1,5 +1,5 @@
 
-#headding
+.container
 {
   background-color: white ;
   width: 300px;
@@ -26,7 +26,7 @@ background-color: gray;
 align-items: center;
 
 }
-div
+.container
 {
 max-width: 500px;
 
